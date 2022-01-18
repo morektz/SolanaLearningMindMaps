@@ -26,6 +26,8 @@ Plantuml installation takes a few minutes is problematic. Start work after plant
 
 # Mindmap Table 
 
+Note some diagrams are quite large, so they are hosted at a third party size. You can download them locally to view them from the pix folder.
+
 |n|Desc|Url|
 |:--|:--:|--:|
 |1| Solana Programs Overview |[▶️](https://ibb.co/SPxSfwR)|
