@@ -8,10 +8,10 @@ WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPL
 </p>
 
 <p align="center"><a href="https://bit.ly/morektz" target="_blank">
-    <img src="https://media.giphy.com/media/AKaEfzaLlr0yI/giphy-downsized.gif"></a>
+    <img src="https://media.giphy.com/media/2A29ghC2SEWYIYXGKt/giphy.gif"></a>
 </p>
 
-## Open repo in gitpod 
+# Open repo in gitpod 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/morektz/SolanaLearningMindMaps)
 # Repo Description 
 
