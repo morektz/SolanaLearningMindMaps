@@ -1,6 +1,24 @@
 @startmindmap
 
-scale 2 
+/' 
+This is based off this article 
+https://solana.com/news/getting-started-with-solana-development
+This generates the stuff mentioned in the above link
+'/
+
+
+'scale 2 
+
+' Styling
+
+skinparam {
+    DefaultTextAlignment Center
+    DefaultFontName Arial
+    ArrowColor Black
+    
+
+    
+}
 
 header 
 ---
@@ -12,12 +30,21 @@ title
 = Solana Programs Overview 
 end title 
 
-/' 
-This is based off this article 
-https://solana.com/news/getting-started-with-solana-development
-'/
 
-+ Solana 
+
+
++ Solana
+
+++ Native \n Programs
++++ System
+++++ Create new accounts, \n allocate account data, \n assign accounts to \n owning programs, transfer lamports from \n System Program owned accounts and \n pay transaction fees.
++++ Config 
++++ Stake 
++++ Vote 
++++ BPF \n Loader 
++++ Ed25519 
++++ Secp256k1
+ 
 
 
 @endmindmap
