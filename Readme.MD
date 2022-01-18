@@ -8,7 +8,7 @@ WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPL
 </p>
 
 <p align="center"><a href="https://bit.ly/morektz" target="_blank">
-    <img src="https://media.giphy.com/media/AKaEfzaLlr0yI/giphy-downsized.gif">
+    <img src="https://media.giphy.com/media/AKaEfzaLlr0yI/giphy-downsized.gif"></a>
 </p>
 
 # Repo Description 
