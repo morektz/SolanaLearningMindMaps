@@ -15,10 +15,9 @@ skinparam {
     DefaultTextAlignment Center
     DefaultFontName Arial
     ArrowColor Black
-    
-
-    
 }
+
+
 
 header 
 ---
@@ -38,13 +37,20 @@ end title
 ++ Native \n Programs
 +++ System
 ++++ Create new accounts, \n allocate account data, \n assign accounts to \n owning programs, transfer lamports from \n System Program owned accounts and \n pay transaction fees.
-+++ Config 
++++ Config
+++++ Add configuration data \n to the chain and the list of \npublic keys that are permitted to modify it 
 +++ Stake 
+++++ Create and manage accounts \n representing stake and rewards \n for delegations to validators.
 +++ Vote 
+++++ Create and manage accounts \n that track validator voting state and rewards.
 +++ BPF \n Loader 
+++++ Deploys, upgrades, and \n executes programs on the chain.
 +++ Ed25519 
+++++ Verify ed25519 signature program. \n This program takes an \n ed25519 signature, public key, and message. \n Multiple signatures can be verified. \n If any of the signatures fail to verify, \n an error is returned.
 +++ Secp256k1
- 
+++++ Verify secp256k1 public key \n recovery operations (ecrecover). 
+
+
 
 
 @endmindmap
