@@ -5,5 +5,8 @@ WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPL
 
 <p align="center"><a href="https://bit.ly/morektz" target="_blank">
     <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmorektz%2FSolanaLearningMindMaps&count_bg=%23641E16&title_bg=%23000000&icon=reasonstudios.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
-    <img src="https://media.giphy.com/media/AKaEfzaLlr0yI/giphy-downsized.gif ">
+</p>
+
+<p align="center"><a href="https://bit.ly/morektz" target="_blank">
+    <img src="https://media.giphy.com/media/AKaEfzaLlr0yI/giphy-downsized.gif">
 </p>
