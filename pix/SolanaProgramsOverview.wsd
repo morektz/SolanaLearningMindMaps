@@ -1,0 +1,23 @@
+@startmindmap
+
+scale 2 
+
+header 
+---
+%date()
+---
+end header 
+
+title 
+= Solana Programs Overview 
+end title 
+
+/' 
+This is based off this article 
+https://solana.com/news/getting-started-with-solana-development
+'/
+
++ Solana 
+
+
+@endmindmap
