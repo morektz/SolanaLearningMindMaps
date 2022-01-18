@@ -27,6 +27,14 @@ end header
 
 title 
 = Solana Programs Overview 
+
+Native Programs = Solana contains a small handful of native programs, 
+which are required to run validator nodes
+SPL (Solana Program Library) = The Solana Program Library (SPL) is a collection of 
+on-chain programs targeting the Sealevel parallel runtime
+
+
+
 end title 
 
 
@@ -50,7 +58,14 @@ end title
 +++ Secp256k1
 ++++ Verify secp256k1 public key \n recovery operations (ecrecover). 
 
-
-
+-- SPL (Solana \n Program \n Library)
+--- Token 
+---- This program defines a common implementation for \nFungible and Non Fungible tokens.
+--- Token Swap 
+---- A Uniswap-like exchange for the Token program \n on the Solana blockchain, \n implementing \n multiple automated market maker (AMM) curves.
+--- Token-Lending 
+---- A lending protocol for the \n Token program \n on the Solana blockchain \n inspired by Aave and Compound.
+--- Asociated \n Token \n account
+---- This program defines the convention \n and provides the mechanism \n for mapping the user's wallet address \n to the associated token accounts they hold.
 
 @endmindmap
