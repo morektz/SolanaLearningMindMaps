@@ -22,6 +22,7 @@ skinparam {
 header 
 ---
 %date()
+Discord - morektz#7282
 ---
 end header 
 
@@ -32,6 +33,9 @@ Native Programs = Solana contains a small handful of native programs,
 which are required to run validator nodes
 SPL (Solana Program Library) = The Solana Program Library (SPL) is a collection of 
 on-chain programs targeting the Sealevel parallel runtime
+
+Src 
+https://solana.com/news/getting-started-with-solana-development
 
 
 
@@ -60,12 +64,17 @@ end title
 
 -- SPL (Solana \n Program \n Library)
 --- Token 
----- This program defines a common implementation for \nFungible and Non Fungible tokens.
+---- Common implementation for \nFungible and Non Fungible tokens.
 --- Token Swap 
 ---- A Uniswap-like exchange for the Token program \n on the Solana blockchain, \n implementing \n multiple automated market maker (AMM) curves.
 --- Token-Lending 
 ---- A lending protocol for the \n Token program \n on the Solana blockchain \n inspired by Aave and Compound.
 --- Asociated \n Token \n account
 ---- This program defines the convention \n and provides the mechanism \n for mapping the user's wallet address \n to the associated token accounts they hold.
+--- Memo 
+---- Validates a string of UTF-8 \n encoded characters and \n verifies that any accounts \n provided are signers of the transaction.
+--- Name\nService
+---- Issuing and managing \n ownership of domain names, \n Solana Pubkeys, URLs, \n Twitter handles, \n ipfs cid's etc
+--- Shared \n Memory 
 
 @endmindmap
