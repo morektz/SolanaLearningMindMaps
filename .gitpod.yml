@@ -4,6 +4,7 @@ tasks:
 
 - name: Plantuml Install 
   init: brew install plantuml 
+  command: plantuml -version
   openMode: tab-after
 
 
