@@ -17,6 +17,13 @@ WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPL
 
 This repo will contain mind maps which I will generate primairly for my own understanding of solana in general. No long paragarphs, just mindmaps and diagrams. Which will be done in [plantuml](https://plantuml.com/). They will be listed in the table below
 
+Default plantuml is quite outdated on gitpod, yaml will install the latest version. For generating diagrams use command line 
+
+`plantuml <filename>`
+
+Plantuml installation takes a few minutes is problematic. Start work after plantuml is installed completely
+
+
 # Mindmap Table 
 
 |n|Desc|Url|
