@@ -13,7 +13,7 @@ This generates the stuff mentioned in the above link
 
 skinparam {
     DefaultTextAlignment Center
-    DefaultFontName Arial
+    DefaultFontName Roboto
     ArrowColor Black
 }
 
@@ -47,34 +47,38 @@ end title
 + Solana
 
 ++ Native \n Programs
-+++ System
++++ 1 System
 ++++ Create new accounts, \n allocate account data, \n assign accounts to \n owning programs, transfer lamports from \n System Program owned accounts and \n pay transaction fees.
-+++ Config
++++ 2 Config
 ++++ Add configuration data \n to the chain and the list of \npublic keys that are permitted to modify it 
-+++ Stake 
++++ 3 Stake 
 ++++ Create and manage accounts \n representing stake and rewards \n for delegations to validators.
-+++ Vote 
++++ 4 Vote 
 ++++ Create and manage accounts \n that track validator voting state and rewards.
-+++ BPF \n Loader 
++++ 5 BPF \n Loader 
 ++++ Deploys, upgrades, and \n executes programs on the chain.
-+++ Ed25519 
++++ 6 Ed25519 
 ++++ Verify ed25519 signature program. \n This program takes an \n ed25519 signature, public key, and message. \n Multiple signatures can be verified. \n If any of the signatures fail to verify, \n an error is returned.
-+++ Secp256k1
++++ 7 Secp256k1
 ++++ Verify secp256k1 public key \n recovery operations (ecrecover). 
 
 -- SPL (Solana \n Program \n Library)
---- Token 
+--- 1 Token 
 ---- Common implementation for \nFungible and Non Fungible tokens.
---- Token Swap 
+--- 2 Token Swap 
 ---- A Uniswap-like exchange for the Token program \n on the Solana blockchain, \n implementing \n multiple automated market maker (AMM) curves.
---- Token-Lending 
+--- 3 Token-Lending 
 ---- A lending protocol for the \n Token program \n on the Solana blockchain \n inspired by Aave and Compound.
---- Asociated \n Token \n account
+--- 4 Asociated \n Token \n account
 ---- This program defines the convention \n and provides the mechanism \n for mapping the user's wallet address \n to the associated token accounts they hold.
---- Memo 
+--- 5 Memo 
 ---- Validates a string of UTF-8 \n encoded characters and \n verifies that any accounts \n provided are signers of the transaction.
---- Name\nService
+--- 6 Name\nService
 ---- Issuing and managing \n ownership of domain names, \n Solana Pubkeys, URLs, \n Twitter handles, \n ipfs cid's etc
---- Shared \n Memory 
-
+--- 7 Shared \n Memory 
+---- Optimized program that writes \n instruction data \n into the provided account's data
+--- 8 Stake\nPool
+---- Pooling together SOL to be staked \n by an off-chain agent running \n a Delegation Bot which \n redistributes the stakes across \n the network and tries \n to maximize censorship \n resistance and rewards.
+--- 9 Feature \n Program \n Proposal 
+---- The Feature Proposal Program \n provides a workflow for activation \n of Solana network features \n through community vote \n based on validator stake weight.
 @endmindmap
