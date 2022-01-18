@@ -10,3 +10,12 @@ WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPL
 <p align="center"><a href="https://bit.ly/morektz" target="_blank">
     <img src="https://media.giphy.com/media/AKaEfzaLlr0yI/giphy-downsized.gif">
 </p>
+
+# Repo Description 
+
+This repo will contain mind maps which I will generate primairly for my own understanding of solana in general. No long paragarphs, just mindmaps and diagrams. Which will be done in [plantuml](https://plantuml.com/). They will be listed in the table below
+
+# Mindmap Table 
+
+|n|Desc|Url|
+|:--|:--:|--:|
