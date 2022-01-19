@@ -1,13 +1,13 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 image:
   file: .gitpod.dockerfile
-  
-tasks: 
 
-- name: Plantuml Install 
-  init: brew install plantuml 
-  command: plantuml -version
-  openMode: tab-after
+# tasks: 
+
+# - name: Plantuml Install 
+#   init: brew install plantuml 
+#   command: plantuml -version
+#   openMode: tab-after
 
 
 
