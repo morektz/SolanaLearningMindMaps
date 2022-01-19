@@ -1,5 +1,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
-
+image:
+  file: .gitpod.dockerfile
+  
 tasks: 
 
 - name: Plantuml Install 
