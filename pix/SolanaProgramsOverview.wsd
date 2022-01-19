@@ -13,7 +13,7 @@ scale 1.5
 
 skinparam {
     DefaultTextAlignment Center
-    DefaultFontName Roboto
+    DefaultFontName Monospaced
     ArrowColor Black
     backgroundColor Black
     TitleFontColor E900FF
