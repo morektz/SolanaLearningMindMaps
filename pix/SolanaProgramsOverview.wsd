@@ -6,6 +6,8 @@ https://solana.com/news/getting-started-with-solana-development
 This generates the stuff mentioned in the above link
 '/
  
+' Scaling - size 
+scale 2
 
 ' Styling
 
@@ -15,11 +17,14 @@ skinparam {
     ArrowColor Black
     backgroundColor Black
     TitleFontColor E900FF
+    Shadowing False
 }
 
 ' Styling section 
 
 <style>
+
+'Root Note
 
 ' Node means all the boxes 
 node {
@@ -28,6 +33,9 @@ node {
     LineColor Deeppink
 }
 
+rootNode {
+    FontColor Magenta
+}
 arrow {
     LineColor Gold
 }
