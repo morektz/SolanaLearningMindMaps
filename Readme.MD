@@ -7,21 +7,10 @@
 ```
 WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPLTELY FCK UP YOU WORK !! DO NOT USE!
 ```
-`Tue 18 Jan 2022 06:15:01 PM UTC`
-
-
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/gitpod-io/workspace-images)
-
-
-
 
 <p align="center"><a href="https://bit.ly/morektz" target="_blank">
     <img src="https://media.giphy.com/media/2A29ghC2SEWYIYXGKt/giphy.gif"></a>
 </p>
-
-# Open repo in gitpod 
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/morektz/SolanaLearningMindMaps)
 
 # Repo Description 
 
