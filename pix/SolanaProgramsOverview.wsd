@@ -13,8 +13,26 @@ skinparam {
     DefaultTextAlignment Center
     DefaultFontName Roboto
     ArrowColor Black
+    backgroundColor Black
+    TitleFontColor E900FF
 }
 
+' Styling section 
+
+<style>
+
+' Node means all the boxes 
+node {
+    BackgroundColor 000D6B
+    FontColor White
+    LineColor Deeppink
+}
+
+arrow {
+    LineColor Gold
+}
+
+</style>
 
 
 header 
