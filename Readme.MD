@@ -31,4 +31,4 @@ Note some diagrams are quite large, so they are hosted at a third party site. Yo
 
 |n|Desc|Url|
 |:--|:--:|--:|
-|1| Solana Programs Overview |[▶️](pix/SolanaProgramsOverview.png)|
+|1| Solana Programs Overview |[▶️](https://raw.githubusercontent.com/morektz/SolanaLearningMindMaps/main/pix/SolanaProgramsOverview.png)|
