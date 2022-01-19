@@ -1,3 +1,7 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-base
 
-RUN brew install plantuml
+RUN sudo apt-get update \
+    && sudo apt-get install -y \
+    plantuml \
+    graphviz \
+    && sudo rm -rf /var/lib/apt/lists/*
