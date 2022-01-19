@@ -6,15 +6,41 @@ https://solana.com/news/getting-started-with-solana-development
 This generates the stuff mentioned in the above link
 '/
  
+' Scaling - size 
+scale 1.5
 
 ' Styling
 
 skinparam {
     DefaultTextAlignment Center
-    DefaultFontName Roboto
+    DefaultFontName Monospaced
     ArrowColor Black
+    backgroundColor Black
+    TitleFontColor E900FF
+    Shadowing False
 }
 
+' Styling section 
+
+<style>
+
+'Root Note
+
+' Node means all the boxes 
+node {
+    BackgroundColor 000D6B
+    FontColor White
+    LineColor Deeppink
+}
+
+rootNode {
+    FontColor Magenta
+}
+arrow {
+    LineColor Gold
+}
+
+</style>
 
 
 header 
