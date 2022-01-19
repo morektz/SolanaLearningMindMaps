@@ -2,12 +2,12 @@
 image:
   file: .gitpod.Dockerfile
 
-# tasks: 
+tasks: 
 
-# - name: Plantuml Install 
-#   init: brew install plantuml 
-#   command: plantuml -version
-#   openMode: tab-after
+- name: http-server install  
+  init: npm install -g http-server 
+  command: http-server
+  openMode: tab-after
 
 
 
