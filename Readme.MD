@@ -27,7 +27,7 @@ Plantuml installation takes a few minutes is problematic. Start work after plant
 
 Note some diagrams are quite large, so they are hosted at a third party site. You can download them locally to view them from the pix folder. 
 
-> Note these are oversized diagrams designed for readability please download them  for best viewing exerience
+> Note these are oversized diagrams designed for readability,  please download them for the best viewing experience
 
 |n|Desc|Url|
 |:--|:--:|--:|

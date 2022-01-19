@@ -1,0 +1,1 @@
+The contents of this repository have been designed from official sources of information. There is nothing of a subjective nature with them.
