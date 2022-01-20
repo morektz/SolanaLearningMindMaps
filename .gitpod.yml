@@ -9,8 +9,6 @@ tasks:
   command: http-server
   openMode: tab-after
 
-
-
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 8000-9000
