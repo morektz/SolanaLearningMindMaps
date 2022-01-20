@@ -7,14 +7,9 @@ tasks:
   - name: Update NPM 
     init: |
       npm update -g
+      npm install --global http-server
       gp sync-done unpm
     command: npm --version
-
-  - name: Install http-server
-    init: |
-      gp sync-await unpm
-      npm install --global http-server
-    openMode: split-right
 
   - name: Http-server open port
     init: | 
