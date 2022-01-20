@@ -19,7 +19,7 @@ tasks:
 - name: Http-server open port
   init: | 
     gp sync-await unpm
-  command: http-server 
+  command: http-server -p 8080
 
 - name: Work Here 
   init: | 
