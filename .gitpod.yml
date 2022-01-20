@@ -6,8 +6,8 @@ tasks:
 
 - name: Update NPM 
   init: |
-    npm update -g 
     gp-sync done updatenpm
+    npm update -g 
   command: npm --version
 
 - name: Install http-server
