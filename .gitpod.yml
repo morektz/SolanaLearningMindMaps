@@ -4,28 +4,28 @@ image:
 
 tasks: 
 
-- name: Update NPM 
-  init: |
-    npm update -g
-    gp sync-done unpm
-  command: npm --version
+  - name: Update NPM 
+    init: |
+      npm update -g
+      gp sync-done unpm
+    command: npm --version
 
-- name: Install http-server
-  init: |
-    gp sync-await unpm
-    npm install --global http-server
-  openMode: split-right
+  - name: Install http-server
+    init: |
+      gp sync-await unpm
+      npm install --global http-server
+    openMode: split-right
 
-- name: Http-server open port
-  init: | 
-    gp sync-await unpm
-  command: http-server -p 8080
+  - name: Http-server open port
+    init: | 
+      gp sync-await unpm
+    command: http-server -p 8080
 
-- name: Work Here 
-  init: | 
-    gp sync-await unpm 
-  command: echo "Work here dummy"
-  openMode: tab-after
+  - name: Work Here 
+    init: | 
+      gp sync-await unpm 
+    command: echo "Work here dummy"
+    openMode: tab-after
 
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
