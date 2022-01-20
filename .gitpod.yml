@@ -4,10 +4,28 @@ image:
 
 tasks: 
 
-- name: http-server install  
-  init: npm install -g http-server 
+- name: Update NPM 
+  init: |
+    npm update -g 
+    gp-sync done npmu 
+  command: npm --version
+
+- name: Install http-server
+  init: |
+    gp-sync wait npmu
+    npm install --global http-server
+  openMode: split-right
+
+- name: Run http server 
+  init: gp-sync wait npmu
   command: http-server
-  openMode: tab-after
+  openMode: split-right
+
+- name: Work Here 
+  init: gp-sync wait npmu 
+  command: echo "Work here dummy"
+  openMode: split-right
+
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
