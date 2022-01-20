@@ -7,21 +7,21 @@ tasks:
 - name: Update NPM 
   init: |
     npm -g update 
-    gp-sync done unpm
+    gp sync-done unpm
   command: npm --version
 
 - name: Install http-server
   init: |
-    gp-sync await unpm
+    gp sync-await unpm
     npm install --global http-server
   openMode: split-right
 
 - name: Http-server open port
-  init: gp-sync await unpm
+  init: gp sync-await unpm
   command: http-server 
 
 - name: Work Here 
-  init: gp-sync await unpm 
+  init: gp sync-await unpm 
   command: echo "Work here dummy"
   openMode: tab-after
 
