@@ -7,7 +7,7 @@ This generates the stuff mentioned in the above link
 '/
  
 ' Scaling - size 
-scale 1.5
+scale 2
 
 ' Styling
 
@@ -35,6 +35,8 @@ node {
 
 rootNode {
     FontColor Magenta
+    BackgroundColor Black
+    LineColor Black
 }
 arrow {
     LineColor Gold
@@ -68,7 +70,7 @@ end title
 
 
 
-+ Solana
++ <img:sl.png>
 
 ++ Native \n Programs
 +++ 1 System
