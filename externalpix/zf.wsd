@@ -11,18 +11,20 @@ Being created here for consolidation of diagrams.
 
 skinparam {
     DefaultTextAlignment Center
-    DefaultFontName Monospaced
+    DefaultFontName DejaVu Sans Mono
     ArrowColor Black
     backgroundColor Black
     TitleFontColor E900FF
     Shadowing False
+
+    HeaderFontColor FF008E
 
     ActorBackgroundColor Black/Red
     ActorBorderColor 06FF00
 }
 
 
-header 
+center header 
 ---
 %date()
 Discord - morektz#7282
