@@ -7,17 +7,21 @@ Being created here for consolidation of diagrams.
 
 'Scale 
 
+Scale 2 
+
 'Styling 
 
 skinparam {
     DefaultTextAlignment Center
-    DefaultFontName DejaVu Sans Mono
+    DefaultFontName DejaVu Sans 
     ArrowColor Black
     backgroundColor Black
     TitleFontColor E900FF
     Shadowing False
 
     HeaderFontColor FF008E
+    HeaderFontName Monospace
+    HeaderFontSize 12
 
     ActorBackgroundColor Black/Red
     ActorBorderColor 06FF00
