@@ -1,0 +1,43 @@
+@startuml 
+
+/'
+This proess is flow is being created for this - https://github.com/morektz/MorektzBountySmash/blob/main/D/qbrzg.md
+Being created here for consolidation of diagrams.
+'/
+
+'Scale 
+
+'Styling 
+
+skinparam {
+    DefaultTextAlignment Center
+    DefaultFontName Monospaced
+    ArrowColor Black
+    backgroundColor Black
+    TitleFontColor E900FF
+    Shadowing False
+
+    ActorBackgroundColor Black/Red
+    ActorBorderColor 06FF00
+}
+
+
+header 
+---
+%date()
+Discord - morektz#7282
+---
+end header 
+
+title 
+=Zcash Foundation - Grants - Generic Process flow 
+
+end title 
+
+' Actor 
+
+Actor as m1 
+
+
+
+@enduml
