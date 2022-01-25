@@ -12,10 +12,12 @@ Diagram being generated from this source  - https://grants.zfnd.org/
 skinparam {
     DefaultTextAlignment Center
     DefaultFontName DejaVu Sans
-    ArrowColor Gold
     BackgroundColor Black
     TitleFontColor E900FF
     Shadowing False
+
+    ArrowColor Gold
+    ArrowFontColor Gold
 
     HeaderFontName Monospaced
     HeaderFontColor FF008E
@@ -36,6 +38,10 @@ skinparam {
     NodeBackgroundColor Black
     NodeBorderColor #F8D210
     NodeFontColor #F8D210
+
+    StorageBackgroundColor Black 
+    StorageBorderColor #DBE8D8
+    StorageFontColor #DBE8D8
 }
 
 center header 
@@ -72,12 +78,37 @@ node n1 [
     <img:ep/p/zcashc.png>
 ]
 
+node n11 [
+    Zcash Foundation 
+]
+
+node n12 [
+    ZOMG 
+]
+
+rectangle r1 [
+    Submission against
+    ---
+    - Requests from 
+      - Community, Zcash Foundation, ZOMG
+    - Own ideas 
+]
+
+storage s1 [
+    Decision 
+    Process 
+]
+
 'Connections 
 
-u1 - f1 
+u1 -> f1 
+f1 -> n1 : Submit Prpoposal \n via \n https://grants.zfnd.org/
+n1 <- r1 
 
+n1 --> n11 : Review
+n1 --> n12 : Review 
 
-
-
+n11 --> s1 
+n12 --> s1 
 
 @enduml
