@@ -1,0 +1,66 @@
+@startuml
+
+/'
+This is for - https://github.com/morektz/MorektzBountySmash/blob/main/D/qbrzg.md#seletion-process
+Diagram being generated from this source  - https://grants.zfnd.org/
+'/ 
+
+' Scaling
+' scale 2
+
+'Styling 
+skinparam {
+    DefaultTextAlignment Center
+    DefaultFontName DejaVu Sans
+    ArrowColor Gold
+    backgroundColor Black
+    TitleFontColor E900FF
+    Shadowing False
+
+    HeaderFontName Monospaced
+    HeaderFontColor FF008E
+
+    ActorBackgroundColor Lime
+    ActorBorderColor Lime 
+    ActorFontColor Lime
+
+    RectangleBorderColor #04ECF0
+    RectangleBackgroundColor Black
+    RectangleFontColor #04D4F0
+
+}
+
+center header 
+
+---
+%date()
+Discord - morektz#7282
+---
+
+end header 
+
+title 
+= ZF Grants Process Flow (Generic)
+src = https://grants.zfnd.org/
+---
+
+end title 
+
+' Actual Code 
+
+:user: as u1 <<User>>
+
+' Boxes 
+
+rectangle r1 [
+    asds 
+]
+
+
+'Connections 
+
+
+
+
+
+@enduml
