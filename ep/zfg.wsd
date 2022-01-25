@@ -6,7 +6,7 @@ Diagram being generated from this source  - https://grants.zfnd.org/
 '/ 
 
 ' Scaling
-' scale 2
+scale 2
 
 'Styling 
 skinparam {
@@ -75,7 +75,7 @@ file f1 [
 ]
 
 node n1 [
-    <img:zcashc.png>
+    <img:https://raw.githubusercontent.com/morektz/SolanaLearningMindMaps/w1/ep/p/zcashc.png>
 ]
 
 node n11 [
