@@ -1,0 +1,1 @@
+This folder is going to contain all imgs being used for other repos
