@@ -13,7 +13,7 @@ skinparam {
     DefaultTextAlignment Center
     DefaultFontName DejaVu Sans
     ArrowColor Gold
-    backgroundColor Black
+    BackgroundColor Black
     TitleFontColor E900FF
     Shadowing False
 
@@ -33,6 +33,9 @@ skinparam {
     FileBorderColor #04ECF0
     FileFontColor #04ECF0
 
+    NodeBackgroundColor Black
+    NodeBorderColor #F8D210
+    NodeFontColor #F8D210
 }
 
 center header 
@@ -57,31 +60,22 @@ end title
 
 ' Boxes 
 
-rectangle r1 [
-    Apply via ZF grants Portal
-    ----
-    1. Proposal 
-    2. Enhancement 
-]
-
-rectangle r11 [
-    Apply via ZF grants Portal
-    ----
-    1. Proposal 
-    2. Enhancement 
-]
-
 file f1 [
-    Proposal 
+    Proposal / Enhancement
+    ----
+    - Improve zcash protocol  
+    - Create resources for user 
+    - Increase ZCASh Adoption 
 ]
 
-file f2 [
-    Enhancement
+node n1 [
+    <img:ep/p/zcashc.png>
 ]
 
 'Connections 
 
-u1 - r1 
+u1 - f1 
+
 
 
 
