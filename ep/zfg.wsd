@@ -23,10 +23,15 @@ skinparam {
     ActorBackgroundColor Lime
     ActorBorderColor Lime 
     ActorFontColor Lime
+    ActorStereotypeFontColor Lime
 
     RectangleBorderColor #04ECF0
     RectangleBackgroundColor Black
     RectangleFontColor #04D4F0
+
+    FileBackgroundColor Black 
+    FileBorderColor #04ECF0
+    FileFontColor #04ECF0
 
 }
 
@@ -48,17 +53,35 @@ end title
 
 ' Actual Code 
 
-:user: as u1 <<User>>
+:user / teams: as u1 <<Ape>>
 
 ' Boxes 
 
 rectangle r1 [
-    asds 
+    Apply via ZF grants Portal
+    ----
+    1. Proposal 
+    2. Enhancement 
 ]
 
+rectangle r11 [
+    Apply via ZF grants Portal
+    ----
+    1. Proposal 
+    2. Enhancement 
+]
+
+file f1 [
+    Proposal 
+]
+
+file f2 [
+    Enhancement
+]
 
 'Connections 
 
+u1 - r1 
 
 
 
