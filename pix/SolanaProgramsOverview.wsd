@@ -13,11 +13,15 @@ scale 2
 
 skinparam {
     DefaultTextAlignment Center
-    DefaultFontName Monospaced
+    DefaultFontName DejaVu Sans
     ArrowColor Black
     backgroundColor Black
     TitleFontColor E900FF
     Shadowing False
+    HeaderFontColor FF6464
+    LegendBackgroundColor 3F0071
+    LegendFontColor White
+    LegendBorderColor Deeppink
 }
 
 ' Styling section 
@@ -107,4 +111,17 @@ end title
 ---- Pooling together SOL to be staked \n by an off-chain agent running \n a Delegation Bot which \n redistributes the stakes across \n the network and tries \n to maximize censorship \n resistance and rewards.
 --- 9 Feature \n Program \n Proposal 
 ---- The Feature Proposal Program \n provides a workflow for activation \n of Solana network features \n through community vote \n based on validator stake weight.
+
+++ Recommended \n Learning \n Resources
++++ Solana Official \n Documentation \n https://docs.solana.com/ 
++++ Solana Official \n Ecosystem \n https://solana.com/ecosystem/
++++ Solana Official \n Developer Resources \n https://solana.com/developers
+
+
+legend  
+<img:https://raw.githubusercontent.com/morektz/SolanaLearningMindMaps/w1/pix/mtz.png>
+end legend 
+
+
+
 @endmindmap
