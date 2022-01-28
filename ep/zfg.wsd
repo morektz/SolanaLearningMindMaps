@@ -42,6 +42,8 @@ skinparam {
     StorageBackgroundColor Black 
     StorageBorderColor #DBE8D8
     StorageFontColor #DBE8D8
+
+    LegendBackgroundColor Black
 }
 
 center header 
@@ -152,6 +154,11 @@ n13 --> n113
 n113 --> n1113
 
 n1113 -> u2 : Funded
+
+
+legend right 
+<img:https://raw.githubusercontent.com/morektz/SolanaLearningMindMaps/w1/pix/mtz.png>
+end legend 
 
 
 @enduml
